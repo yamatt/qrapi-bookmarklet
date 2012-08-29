@@ -1,7 +1,7 @@
 javascript:
 var jquery_url = 'http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js'
 var other_sources = [
-    'http://qrthisurl.appspot.com/bookmarklet.small.js'
+    'http://qrthisurl.appspot.com/static/bookmarklet.small.js'
 ];
 
 escaped_url = encodeURIComponent(location.href);
