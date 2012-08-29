@@ -2,11 +2,8 @@
  * This script adds a QR generating add-on to jQuery to make coding easier.
 */
 
-
-
-
-(function($){
-    $.fn.extend({ 
+(function(jQuery){
+    jQuery.fn.extend({ 
         QrThisURL: function(cleaned_value) {
             var qr_url = 'http://qrthisurl.appspot.com/';
             
