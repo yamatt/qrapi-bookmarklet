@@ -20,6 +20,11 @@ for (var i=0; i < other_sources.length;i++) {
     add_script(other_sources[i])
 }
 jQuery(document).ready(function() {
+    jQuery().keypress(function(e) {
+        if (e.keyCode == 27) { //esc
+            jQuery().RemoveThisQr();
+        }   // esc
+    });
     jQuery().QrThisURL(escaped_url);
 });
 
