@@ -9,7 +9,7 @@ escaped_url = encodeURIComponent(location.href);
 function add_script(url) {
     var script_elem = document.createElement('script');
     script_elem.src = url;
-    document.body.appendChild(s);
+    document.body.appendChild(script_elem);
 }
 
 if (!jQuery) {
